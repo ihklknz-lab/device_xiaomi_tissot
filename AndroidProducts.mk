@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_tissot.mk
+    $(LOCAL_DIR)/miku_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_tissot-user \
-    banana_tissot-userdebug \
-    banana_tissot-eng
+    miku_tissot-user \
+    miku_tissot-userdebug \
+    miku_tissot-eng
