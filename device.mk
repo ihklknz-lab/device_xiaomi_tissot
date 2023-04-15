@@ -73,10 +73,6 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_msm8953 \
     fakelogprint
 
-# Prebuilt Apps
-PRODUCT_PACKAGES += \
-    GalleryGoPrebuilt
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.goodix.sh \
@@ -91,10 +87,6 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Touch HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi_8953
 
 # Update engine
 PRODUCT_PACKAGES += \
