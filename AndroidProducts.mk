@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/banana_tissot.mk
+    $(LOCAL_DIR)/xdroid_tissot.mk
 
 COMMON_LUNCH_CHOICES := \
-    banana_tissot-user \
-    banana_tissot-userdebug \
-    banana_tissot-eng
+    xdroid_tissot-user \
+    xdroid_tissot-userdebug \
+    xdroid_tissot-eng
